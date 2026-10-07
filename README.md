@@ -2,6 +2,8 @@
 
 This repository contains a Python implementation for calculating the melting temperature ($T_m$) of oligonucleotide duplexes based on nucleotide composition.
 
+> **Scope:** The proof and calculation below apply only to [`lab2-1.py`](lab2-1.py); they do not describe the separate implementation in `lab2-2.py`.
+
 ---
 
 ## 1. Calculation for Sequence `ATCGCGTA`
@@ -77,5 +79,5 @@ Standard PCR primers require **18–25 base pairs** to remain stably annealed at
 To run the calculation script:
 
 ```bash
-python calculate_tm.py
+python lab2-1.py
 ```
